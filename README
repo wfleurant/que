@@ -1,1 +1,23 @@
-La LA lA
+'''
+<center>Que es hasta</h1></center>
+Im making a "search engine" and here are the details
+I will make it brief...
+It is a toy right now, I am making it to possibly 
+contribute to a actual search engine later. If you
+want to scrape the inside of your eyes with a knife,
+here is the source code.
+I have a hell of a lot of results, but thats useless
+Within the next day I am going to make the text on
+the page searchable. It will see if your search exactly
+matches any of the text on a page it has in the db.
+It will also display this text in the description
+when you search for it. 
+<center>How to get ranked</center>
+Well, I havnt wrote a ranking system yet. This is the
+only hard part ;) Also, the reason all other engines 
+have failed in the past. I figure, <a href="http://en.wikipedia.org/wiki/Pareto_principle">80% 20%</a>
+right? As of right now, I strip the title from the HTML
+on your page, the keywords meta off your page, and
+the discription meta off your page. They are all 
+searchable, but not much else can be said. 
+'''
