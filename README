@@ -1,5 +1,5 @@
-'''
-<center>Que es hasta</h1></center>
+	Que es hasta
+
 Im making a "search engine" and here are the details
 I will make it brief...
 It is a toy right now, I am making it to possibly 
@@ -12,12 +12,46 @@ the page searchable. It will see if your search exactly
 matches any of the text on a page it has in the db.
 It will also display this text in the description
 when you search for it. 
-<center>How to get ranked</center>
+
+	Live example
+
+
+
+	How to get ranked
+
 Well, I havnt wrote a ranking system yet. This is the
 only hard part ;) Also, the reason all other engines 
-have failed in the past. I figure, <a href="http://en.wikipedia.org/wiki/Pareto_principle">80% 20%</a>
+have failed in the past. I figure, 80% 20% 
+** http://en.wikipedia.org/wiki/Pareto_principle **
 right? As of right now, I strip the title from the HTML
 on your page, the keywords meta off your page, and
 the discription meta off your page. They are all 
 searchable, but not much else can be said. 
-'''
+
+	Whats to be done
+
+- [x] Add all links on a page to db
+- [x] Make Title, Keywords, and url searchable
+- [x] Get Live example
+- [x] Open Source it!
+- [ ] Check if links are Hype or not and flag them
+- [ ] Searchable Text
+- [ ] Add a Ranking system
+- [ ] Searchable Source code
+- [ ] Searchable Images
+
+	How to run a copy
+I am not sure how its gonna work for you, but here
+is how it worked for me. I run Arch Linux, MariaDB,
+phpmyadmin, and python3. Basically, 
+1. Git clone http://gitboria.com/Nathanial/que.git
+2. open up phpmyadmin 
+3. make a new database with all the defaults
+4. browse to it, go to the Import tab at the top
+5. Click Browse and select the data.sql 
+6. You should have a table named search with a couple
+   columns.
+7. Add your credentials to poser.py and search.php
+8. Make it better
+9. $$$
+10. Credit me

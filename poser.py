@@ -2,7 +2,7 @@ import urllib.request
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin
 import pymysql
-conn = pymysql.connect(host='localhost', user='root', passwd='Wolfer3779', db='searchtest')
+conn = pymysql.connect(host='localhost', user='root', passwd='YOUR PASSWORD', db='YOUR DATABASE')
 cur = conn.cursor(pymysql.cursors.DictCursor)
 cur.execute("""SELECT url FROM search""")
 newpages=cur.fetchall()

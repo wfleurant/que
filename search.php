@@ -1,6 +1,6 @@
 <?php
-mysql_connect("localhost","root","Wolfer3779");
-mysql_select_db("searchtest");
+mysql_connect("localhost","root","$YOUR_PASSWORD");
+mysql_select_db("$DATABASE_NAME");
 
 if (isset($_POST['search_query'])) {
 $search_query = mysql_real_escape_string(htmlentities($_POST['search_query']));
